@@ -1,0 +1,7 @@
+{
+  "name": "alice",
+  "chef_environment": "production",
+  "automatic": {
+    "ipaddress": "1.1.1.1"
+  }
+}

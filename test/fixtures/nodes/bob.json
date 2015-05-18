@@ -1,0 +1,17 @@
+{
+  "name": "bob",
+  "chef_environment": "development",
+  "automatic": {
+    "ipaddress": "2.2.2.2"
+  },
+  "normal": {
+    "break": {
+      "search": {
+        "with": {
+          "chef_environment": "production",
+          "ipaddress": "1.1.1.1"
+        }
+      }
+    }
+  }
+}

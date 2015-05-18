@@ -1,0 +1,7 @@
+name             'search_woes'
+maintainer       'Jordan Wesolowski'
+maintainer_email 'jrwesolo@gmail.com'
+license          'all_rights'
+description      'Installs/Configures search_woes'
+long_description 'Installs/Configures search_woes'
+version          '0.1.0'

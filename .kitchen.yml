@@ -1,0 +1,17 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  nodes_path: test/fixtures/nodes
+  environments_path: test/fixtures/environments
+
+platforms:
+  - name: ubuntu-12.04
+
+suites:
+  - name: default
+    run_list:
+      - recipe[search_woes::default]
+    attributes:
